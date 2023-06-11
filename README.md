@@ -1,2 +1,2 @@
 # Landing-page
-odin project
+This is the odin project using css.
