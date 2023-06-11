@@ -1,5 +1,6 @@
 .hero,
-.footer{
+.footer,
+.call{
     background-color: #1f2937;
 }
 
@@ -19,12 +20,12 @@
     padding-right: 40px;
     padding-bottom: 40px;
     padding-top: 20px;
-
+    flex-wrap: wrap;
 }
 
 .hero2{
     display: flex;
-    /* flex: 1; */
+    flex: 1;
     justify-content: space-between ;
     height: 100px;
 }
@@ -32,7 +33,7 @@
 .hero-logo{
     height: 100px;
     width: 150px;
-    flex: 8;
+    /* flex-basis: 80%; */
 }
 
 .hero-head{
@@ -80,52 +81,77 @@
 
 /* MIDDLE PAGE */
 .information{
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: darkgray;
 }
 
 #information-header{
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
-    font-weight: bolder;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
+
+.information-box1,
+.information-box2{
+    display: flex;    
+}
+
+.assassins-creed1,
+.assassins-creed2,
+.assassins-creedbr,
+.assassins-creedre{
+    flex: 1;
+    padding: 25px;
+    font-size: 18px;
+}
+
+.assassins-creed1 img,
+.assassins-creed2 img,
+.assassins-creedbr img,
+.assassins-creedre img{
+    width: 250px;
+    height: 200px;
+}
+
 
 /* QUOTE */
 .quote{
     background-color: #ced0d2;
     font-style: italic;
     font-size: 50px;
-    /* padding: 100px; */
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 50px;
+    padding-top: 50px;
     text-align: center;
+    padding: 50px;
 }
 
 /* CALL TO ACTION */
 .call{
-    background-color: #3882f6;
+    background-color: darkgray;
     display: flex;
-    margin: 60px;
-    margin-left: 100px;
-    margin-right: 100px;
     height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
 
 }
 
 .call p{
-    flex: 1;
-    color: white;
-    padding-left: 100px;
+    color: black;
 }
 
 .call #bold{
     font-weight: bold;
+    font-size: 20px;
 }
 
 
  .call .sign-up{
-    border-width: 2px;
-    border-color: white;
+    border-width: 3px;
+    background-color:#1f2937;
+    align-self: baseline;
+    color: wheat;
 }
 
 /* FOOTER */
