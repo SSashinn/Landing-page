@@ -1,0 +1,34 @@
+.hero,
+.footer{
+    background-color: #1f2937;
+    display: flex;
+}
+
+body{
+    margin: 0;
+}
+.hero-logo{
+    height: 100px;
+    width: 175px;
+}
+
+.hero-head{
+    flex: 1;
+}
+.information{
+    background-color: white;
+}
+
+.quote{
+    background-color: #939496;
+    font-style: italic;
+    font-size: 50px;
+    padding: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#information-header{
+    font-size: 36px;
+    text-align: center;
+}
