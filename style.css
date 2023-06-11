@@ -1,34 +1,104 @@
 .hero,
 .footer{
     background-color: #1f2937;
-    display: flex;
 }
 
 body{
     margin: 0;
 }
+
+/* UPPER PAGE; HERO */
+.hero{
+    height:300px;
+    padding-left: 40px;
+    color: white;
+    display: flex;
+}
+
 .hero-logo{
     height: 100px;
-    width: 175px;
+    width: 150px;
+    padding-left: 200px;
+    margin-right: 500px;
 }
 
 .hero-head{
+    justify-content: space-between;
+    display: flex;
+    gap: 50px;
+    height: 40px;
+    font-size: larger;
+}
+
+.content{
+    margin-top: 100px;
+    display: block;
     flex: 1;
 }
+
+.sign-up{
+    background-color: #3882f6;
+    color: white;
+    height: 30px;
+    width: 90px;
+}
+
+
+
+/* MIDDLE PAGE */
 .information{
     background-color: white;
 }
 
+#information-header{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+/* QUOTE */
 .quote{
-    background-color: #939496;
+    background-color: #ced0d2;
     font-style: italic;
     font-size: 50px;
     padding: 100px;
     margin-left: 0px;
     margin-right: 0px;
-}
-
-#information-header{
-    font-size: 36px;
     text-align: center;
 }
+
+/* CALL TO ACTION */
+.call{
+    background-color: #3882f6;
+    display: flex;
+    margin: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 100px;
+
+}
+
+.call p{
+    flex: 1;
+    color: white;
+    padding-left: 100px;
+}
+
+.call #bold{
+    font-weight: bold;
+}
+
+
+ .call .sign-up{
+    border-width: 2px;
+    border-color: white;
+}
+
+/* FOOTER */
+.footer{
+    height: 50px;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 25px;
+}
+
